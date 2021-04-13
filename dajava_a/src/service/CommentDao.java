@@ -26,7 +26,7 @@ public class CommentDao {
 	public int Insert( String Ccontents, String reidx, String midx) {
 		int a = 0; 
 	    String sql = "insert into table_comment(CoriginCidx,Cdepth,Clevel,Ccontents,reidx,midx,Cdate)"
-	    		+ "values((select IFNULL(max(CoriginCidx)+1, 1)FROM Table_comment c),0,0,?,?,?,NOW())";
+	    		+ "values((select IFNULL(max(Cidx)+1, 1)FROM Table_comment c),0,0,?,?,?,NOW())";
 	    try {
 	    	pstmt =conn.prepareStatement(sql);
 	    	pstmt.setString(1, Ccontents);

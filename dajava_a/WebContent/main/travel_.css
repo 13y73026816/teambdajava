@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+		html{
+			font-size:100%;
+			font-family:sans-serif;
+		}
+		
+		.tra{
+			max-width:100%;
+			height:51vh;
+			overflow:hidden;
+			position:flex;
+			justify-content:space-between;
+		}
+		
+		@media screen and (max-width:1000px){
+				html{font-size:70%;}
+			}	
+		
+		.timg{
+			position:relative;
+			width:100%;
+			height:83vh;
+		}
+		
+		.timg img{
+			width:100%;
+			height:100%;
+			position:relative;
+		}
+		
+		.totit h2, .totit h1{
+			color:#fff;
+			z-index:1;
+		}
+		
+		.tra .ibox{
+			width:55%;
+			height:auto;
+			overflow:hidden;
+		}
+		
+		.tra .tbox{
+			margin-top:5%;
+			width:40%;
+			z-index:2;
+		}
+		
+		.tr2 .ibox,.tr4 .ibox,.tr6 .ibox, .tr8 .ibox{
+			float:right;
+		}
+		
+		.tr1 .ibox,.tr3 .ibox,.tr5 .ibox, .tr7 .ibox, .tr9 .ibox{
+			float:left;
+		}
+		
+		.tr2 .tbox,.tr4 .tbox, .tr6 .tbox, .tr8 .tbox{
+			text-align:right;
+		}
+		
+		.tr1 .tbox, .tr3 .tbox, .tr5 .tbox, .tr7 .tbox, .tr9 .tbox{
+			float:right;
+		}
+		
+		h1{
+			font-size:4rem;
+			line-height: 6;
+		}
+		
+		h1, h2, h3{
+			color:#fff;
+		}
+		
+		h4{
+			font-size:1.2rem;
+			line-height: 2;
+		}
+		
+		h2{
+			font-size:1rem;
+			font-weight:500;
+			line-height: 2;
+		}
+		
+		h3{
+			font-size:1.1rem;
+			font-weight:300;
+			line-height: 1.7;
+		}
+		
+		.ibox img:hover{
+			cursor:pointer;
+			-webkit-transform:scale(1.1);
+			-moz-transform:scale(1.1);
+			-o-transform:scale(1.1);
+			-transform:scale(1.1);
+			transition:transform 2.5s;
+			-o-transition:transform 2.5s;
+			-moz-transition:transform 2.5s;
+			-webkit-transition:transform 2.5s;
+		}
+		
+		.ibox img{
+			cursor:pointer;
+			-webkit-transform:scale(1);
+			-moz-transform:scale(1);
+			-o-transform:scale(1);
+			-transform:scale(1);
+			transition:transform 2.5s;
+			-o-transition:transform 2.5s;
+			-moz-transition:transform 2.5s;
+			-webkit-transition:transform 2.5s;
+		}
+		
+		@keyframes fadeInUp3 {
+			from {
+				transform: translate3d(0,1000px,0)
+			}
+			to {
+				transform: translate3d(0,0,0);
+				opacity: 1
+			}
+		}
+		
+		@-webkit-keyframes fadeInUp3 {
+			from {
+				transform: translate3d(0,1000px,0)
+			}
+			to {
+				transform: translate3d(0,0,0);
+				opacity: 1
+			}
+		}
+		
+		#travel_con{
+			position:relative;
+		}
+		
+		.info{
+			width:100%;
+			height:100%;
+			position:absolute;
+			text-align:center;
+			color:#fff;
+			top:20vh;
+		}
+		
+		.info h2{
+			font-size:3rem;
+			font-weight:800;
+		}
+		
+		.info h3{
+			font-weight:400;
+			line-height: 400%;
+		}

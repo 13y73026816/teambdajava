@@ -1,0 +1,40 @@
+#wrap{ text-align: center;
+    width: 70%;
+    margin: 0 auto;
+	}
+	
+.p3{
+position:relative;
+float:right;	
+	
+}	
+h1{
+font-size:70px;	
+margin-top:40px;	
+}	
+.Search{
+text-align:center;	
+margin: 0 auto;	
+	
+}	
+html {
+height: 100%;
+}
+body{
+margin:0;
+padding:0;
+height:85%;
+}
+#wrap {
+min-height:90%;
+position:relative;
+padding-bottom:75px;/* footer height */   
+}
+	
+@media(max-width:1220px){
+				#wrap{width:100%;}
+				table{width:100%;}
+			}	
+			
+			
+			

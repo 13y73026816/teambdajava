@@ -59,7 +59,7 @@ String sql= "select * from table_member a inner join table_Comment b on a.midx =
 			
 			pstmt.setInt(1, reidx3);
 			pstmt.setInt(2, (scri.getPage()-1)*10);
-			pstmt.setInt(3, scri.getPage()*10);
+			pstmt.setInt(3, 10);
 		
 			
 			pstmt.executeQuery();

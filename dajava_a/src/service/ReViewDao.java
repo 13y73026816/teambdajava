@@ -31,7 +31,7 @@ public ArrayList<ReViewVo> SelectAll(SearchCriteria scri){
 		
 		pstmt.setString(1, "%"+scri.getKeyword()+"%");
 		pstmt.setInt(2, (scri.getPage()-1)*10);
-		pstmt.setInt(3, scri.getPage()*10);
+		pstmt.setInt(3, 10);
 		rs = pstmt.executeQuery();
 		
 		while(rs.next()) {

@@ -29,7 +29,7 @@ public ArrayList<NoticeVo> SelectAll(SearchCriteria scri){
 		pstmt= conn.prepareStatement(sql);
 		pstmt.setString(1, "%"+scri.getKeyword()+"%");
 		pstmt.setInt(2, (scri.getPage()-1)*10);
-		pstmt.setInt(3, scri.getPage()*10);
+		pstmt.setInt(3, 10);
 	System.out.println("테스트1"+scri.getPage()*10);
 	System.out.println("테스트2"+(scri.getPage()-1)*10);
 		 rs = pstmt.executeQuery();

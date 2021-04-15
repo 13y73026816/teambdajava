@@ -36,6 +36,9 @@ PageMaker pm =(PageMaker)request.getAttribute("pm");
 </script> 
 <style type="text/css"> 
 a { text-decoration:none; } 
+a:visited {text-decoration: none; color: black;}
+
+
 </style> 
 </head>
 <body>

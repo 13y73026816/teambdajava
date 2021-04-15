@@ -46,6 +46,10 @@ PageMaker pm =(PageMaker)request.getAttribute("pm");
     
 
 </script> 
+<style>
+a:visited {text-decoration: none; color: black;}
+
+</style>
 </head>
 <body>
 <%@ include file="header.jsp" %>

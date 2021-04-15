@@ -36,7 +36,7 @@
 
 </script> 
 <style>
-a:link{color:black; text-decoration:none;}
+a:link{color:blue; text-decoration:none;}
 a:visited { color:black; text-decoration:none; }
 a:hover { color:blue;  text-decoration: underline;}
 a:active { color:blue;  text-decoration:none;}

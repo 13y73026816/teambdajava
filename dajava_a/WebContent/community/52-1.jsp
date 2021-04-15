@@ -114,6 +114,9 @@ function Reco(){
 
 <style type="text/css">
 #STATICMENU { margin: 0pt; padding: 0pt;  position: absolute; right: 0px; top: 0px;}
+a:link {text-decoration: none; color:blue;}
+a:visited {text-decoration: none; color: black;}
+a:hover {text-decoration: underline; color: blue;}
 </style>
 
 </head>
